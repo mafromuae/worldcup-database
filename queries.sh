@@ -46,4 +46,4 @@ WHERE round = 'Final'
 ORDER BY year;")"
 
 echo -e "\nList of teams that start with 'Co':"
-echo "$($PSQL "SELECT name FROM teams WHERE name LIKE 'Co%' ORDER BY name;")"
+echo $($PSQL "SELECT name FROM teams WHERE name LIKE 'Co%'")
